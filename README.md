@@ -1,10 +1,8 @@
 # Digital Wellbeing For Windows 10
-[![Github All Releases](https://img.shields.io/github/downloads/christiankyle-ching/DigitalWellbeingForWindows/total.svg)](https://github.com/christiankyle-ching/DigitalWellbeingForWindows/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/CodeSpire-Solutions/DigitalWellbeingForWindows-2.0.4.0)/total.svg)]([https://github.com/christiankyle-ching/DigitalWellbeingForWindows](https://github.com/CodeSpire-Solutions/DigitalWellbeingForWindows-2.0.4.0)/releases)
 
-An App Usage tracker (time tracker) for Windows 10 inspired by Digital Wellbeing in Android. Built with WPF (.NET 4.6), [ModernWpf](https://github.com/Kinnara/ModernWpf) and [Live Charts](https://lvcharts.net/).
-
-**This is only a hobby project. You will experience bugs.** See the [troubleshooting guide](#troubleshooting).
-You can help me fix them by reporting it in the [Issues tab](https://github.com/christiankyle-ching/DigitalWellbeingForWindows/issues/new).
+An App Usage tracker (time tracker) for Windows 11 inspired by Digital Wellbeing in Android. Built with WPF (.NET 4.8), [ModernWpf](https://github.com/Kinnara/ModernWpf) and [Live Charts](https://lvcharts.net/).
+New changes we will implement: WinUI3 Update. Newer .NET Version and generall overhauls.
 
 There are no warranties associated in using this app.
 
@@ -36,9 +34,7 @@ There are no warranties associated in using this app.
 - **Auto-Refresh**. Auto-Refresh charts on intervals.
 
 ## Installation
-**Download the .msi** installer of the [latest version / release](https://github.com/christiankyle-ching/DigitalWellbeingForWindows/releases/latest).
-
-_Windows Defender SmartScreen will block the installation of this file. Read the source code if you have any doubts, or run a [VirusTotal](https://www.virustotal.com/) scan._
+**Download the .msi** installer of the [latest version / release]([https://github.com/CodeSpire-Solutions/DigitalWellbeingForWindows-2.0.4.0/releases/latest).
 
 NOTE: You may have multiple versions of this app installed. Just uninstall older versions.
 If you experience any problems, see the troubleshooting guide.
@@ -63,11 +59,9 @@ Send me the `.log` file for the current day when the crash happens. This will he
 ### App icons not showing
 Fetching icons from running apps is a hit or miss. For better chances, try running the app in administrator mode. (`Right Click > Run as Administrator`).
 
-# For Developers
-
 ## Solution Projects (Folders)
 - `DigitalWellbeing.Core` - A class library that has static shared classes among the projects.
-- `DigitalWellbeingService.NET4.6` - A console application that monitors current active process.
+- `DigitalWellbeingService.NET4.8` - A console application that monitors current active process.
 - `DigitalWellbeingWPF` - Front-end UI application.
 - `Setup` - An [Advanced Installer](https://www.advancedinstaller.com/) setup project for building an .MSI installer.
 
