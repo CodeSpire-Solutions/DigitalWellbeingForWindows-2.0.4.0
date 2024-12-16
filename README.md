@@ -1,5 +1,5 @@
 # Digital Wellbeing For Windows 10
-[![Github All Releases](https://img.shields.io/github/downloads/christiankyle-ching/DigitalWellbeingForWindows/total.svg)](https://github.com/christiankyle-ching/DigitalWellbeingForWindows/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/CodeSpire-Solutions/DigitalWellbeingForWindows-2.0.4.0)/total.svg)]([https://github.com/christiankyle-ching/DigitalWellbeingForWindows](https://github.com/CodeSpire-Solutions/DigitalWellbeingForWindows-2.0.4.0)/releases)
 
 An App Usage tracker (time tracker) for Windows 10 inspired by Digital Wellbeing in Android. Built with WPF (.NET 4.6), [ModernWpf](https://github.com/Kinnara/ModernWpf) and [Live Charts](https://lvcharts.net/).
 
